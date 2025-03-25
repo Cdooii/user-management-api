@@ -13,7 +13,7 @@ if (fs.existsSync(USERS_FILE)) {
     users = JSON.parse(fs.readFileSync(USERS_FILE, 'utf8'));
 }
 
-// User registration route
+// User registration route // watch me wip whatch me ninini
 app.post('/register', async (req, res) => {
     try {
         const { username, email, password } = req.body;
